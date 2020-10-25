@@ -1,15 +1,12 @@
 ---
-title: Testing
+title: Testing Methods
 author: Hafizur Rahman
-date: 2019-08-08 11:33:00 +0800
+date: 2020-09-09 11:33:00 +0800
 categories: [Blogging, Demo]
 tags: [typography]
 math: true
 # image: /assets/img/sample/devices-mockup.png
 ---
-
-
-This Jekyll template totally compatible with Markdown syntax. Now, let's have a look at the text and typography.
 
 <!-- 
 ## Titles
