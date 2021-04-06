@@ -8,4 +8,4 @@ title: About
 # MIT License
 ---
 
-Currenlty, I am a software developer (AI) at Heyday.ai. I am working in Natural Language Processing(NLP) and its application in conversation domain. Apart from that I am interested in reinforcement learning and graph representation learning. I intend to write learnings in blog posts here and share with others.
+I completed MASc from Concordia University where my research focus was on Bayesian framework in computer vision. Currenlty, I am a software developer (AI) at Heyday.ai. I am working in Natural Language Processing(NLP) and its application in conversation domain. Apart from that I am interested in reinforcement learning and graph representation learning. I intend to write learnings in blog posts here and share with others.
