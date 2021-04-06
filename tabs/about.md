@@ -8,4 +8,4 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+Currenlty, I am a software developer (AI) at Heyday.ai. I am working in Natural Language Processing(NLP) and its application in conversation domain. 
