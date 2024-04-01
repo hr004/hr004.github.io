@@ -48,3 +48,7 @@ To overcome this limitation, Bayesian Q-Learning uses probability distributions 
 
 We can denote total discounted rewared in state $s$ for action $a$ as $R_{s,a}$ which is a random variable. It is fair to assume that $R_{s,a}$ is normally distributed. This can be justified by the central limit theorem  and Markov chain convergence theorem. If discount factor $\gamma \rightarrow 1$ and MDP is ergodic meaning stationary Markov chain, then applying the optimal policy will make $R_{s,a}$ to be a normal distribution.
 
+As said, $R_{s,a}$ is normally distributed and it's parameters $\mu_{s,a}, \tau_{s,a}$ follows a normal-gamma distribution. A normal gamma distribution over the mean $\mu$ and precision $\tau$ of a random variable $R$ is determined by a tuple of hyperparameters $\rho = \{\mu_{0}, \lambda, \alpha, \beta \}$. To represent agent's prior over the distribution of $R_{s,a}$, we need to maintain the tuple $\rho_{s,a}$ i.e we can represent the prior by a collection of hyperparameters for each $s$ and $a$. If the samples of rewards from the distribution $R_{s,a}$ were independent, we could just use the same representation of $R_{s,a}$ for the join posterior. But that's not the case as we will see later.
+
+### Action Selection
+
