@@ -14,15 +14,15 @@ Balancing the exploration and exploitation in reinforcement learning. If the age
 Q-learning is a model free reinforcement learning algorithm to learn the quality of the actions. We can think of it as a method of learning a value function, which is a measure of the quality of an action in a given state. The Q-learning algorithm iteratively updates this value function until it converges to the true value function, which gives the optimal action for each state. This is achieved by using a balance of exploration, where the agent tries new actions to gather information, and exploitation, where the agent uses the information it has to choose the best action. The Q-values are updated using the Bellman equation.
 
 - The standard Bellman equations are defined as
-  - $V^{*}(s) = \max_{a} Q^{*}(s,a)$
-  - $Q^{*}(s,a) = r(s,a) + \gamma \sum_{s'} P(s' | s,a) V^{*}(s')$
+  - $$V^{*}(s) = \max_{a} Q^{*}(s,a)$$
+  - $$Q^{*}(s,a) = r(s,a) + \gamma \sum_{s'} P(s' | s,a) V^{*}(s')$$
 
 - Q-learning algorithm:
   1. Let the current state be $s$.
   2. Select an action $a$ to perform. This can be done using a policy derived from Q, such as $\epsilon$-greedy.
   3. Let the reward received for performing $a$ be $r$ and the resulting state be $s'$.
   4. Update $Q(s,a)$ to reflect the observations $s,a,r,s'$ as follows
-     - $Q(s,a) = Q(s,a) + \alpha[r + \gamma \max_{a'} Q(s',a') - Q(s,a)]$
+     - $$Q(s,a) = Q(s,a) + \alpha[r + \gamma \max_{a'} Q(s',a') - Q(s,a)]$$
 
      where:
      - $\alpha$ is the learning rate
